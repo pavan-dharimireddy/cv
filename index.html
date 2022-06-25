@@ -1,0 +1,642 @@
+<!-- VS CODE SHORTCUTS-->
+<!--
+    Alt + cursor click -- to change at multiple lines
+    command palette -> toogle word wrap
+    Ctrl + Enter -- to next line
+    Ctrl + D -- to replicate the line
+    Ctrl + / -- to comment out a single statement
+-->
+
+<!--  windows key + . -- to access emoji keyboard 
+    windows key + ; and hold the window key -- to partially invisible the current window -->
+
+
+
+
+<!-- index.html is the starting file executed by default by the browser-->
+<!-- whenever you did a project always give "index.html" as the name for your html if you have multiple files-->
+<!-- HTML is case insensitive h1 is equal to H1 -->
+
+<!DOCTYPE html>
+<!--type of document and the version of the html and browser can understand only some type of documents like html,xhtml,etc   -->
+<html lang="en">
+
+
+<head>
+    <!-- under head we have all the meta data which describes the website, meta data means data which tells us about data-->
+    <meta charset="UTF-8"> <!-- meta charaset is used in SEO optimization-->
+    <!-- gives extra meta data or associate data to the html document, here it means your are tell the browser when it open the webpage , this webpage is encoded using the UTF-8 encoding system   -->
+    <!-- utf - 8 is the standard encoding for html-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="this is description">
+    <meta name="keywords" content="python,javascript,c,c++,java,css,html">
+    <meta name="robots" content="INDEX,FOLLOW">
+    <title>♥ My Website</title> <!-- titel of the website-->
+    <!--if we want to link any files we do it under the head-->
+    <link rel="stylesheet" href="css_tutorial.css"> <!-- this is how we include external css-->
+    <script src="js_tutorial.js"></script>
+    <!--this is how we include external js -->
+</head>
+
+<!-- when we use the right tag in right place, it results in a better page layout, better indexing by search engine and better user experience
+  we use the following tags to get the job done
+  
+  <header> -- contains nav tag
+  <main>
+  <footer> -->
+
+<body>
+    <header>
+        this is header
+        <nav>Home
+            About
+        </nav>
+
+    </header>
+    <main>
+        <p>this is main content</p>
+        <!-- inside the main tag we insert the following tags
+            <main> -- the main opening tag
+            <section> -- a page section
+            <article> -- a self contained content
+            <aside>  -- content aside from the content (e.g Ads etc)
+            </main> -- the main closing tag
+        
+            creating a page like this is not necessary but it creates a readable and structured layout , also they are useful for SEO.
+        -->
+        <section>
+            <a href="https://codewithharry.com" target="_main">Harry's website</a>
+            <!-- main and blank opens the site in new tab-->
+            <a href="https://codewithharry.com" target="_blank">Harry's website</a>
+            <a href="https://codewithharry.com" target="_main"> <img src="\wp9183138-hacker-4k-ultra-hd-wallpapers.jpg"
+                    alt="Harry's website" width="500px"> </a>
+            <!-- if we set one attribute out of width and height , the other will automatically set to maintain the aspect ratio-->
+        </section>
+
+        <div>
+
+            <!-- div tag is often used as a container for other elements, div is a block level element -->
+            <!-- block level element means always takes full width-->
+        </div>
+    </main>
+    <section>
+        <div>
+            <h1>
+                why me always , i hate my life
+            </h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat obcaecati excepturi delectus minus,
+                deleniti sequi id explicabo fugit nisi labore provident nulla aperiam magni ratione consequuntur sit!
+                Cumque quisquam eum ratione quod, suscipit illum nesciunt. Sunt ratione sapiente suscipit vitae.</p>
+        </div>
+        <div>
+            <h1>what do you mean</h1>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum eos architecto nostrum saepe ipsam ex
+                ratione pariatur rerum excepturi eaque fuga veritatis adipisci magni, quasi necessitatibus sunt nemo,
+                corporis eligendi, laborum odit iste. Quibusdam esse sapiente possimus ex atque porro.</p>
+        </div>
+        <span>
+            <!-- span is an inline element-->
+            <!-- inline element takes only space how it required-->
+            my life, my rules
+            <!-- paragraph is also a block element-->
+
+        </span>
+        <span>i am another span</span>
+    </section>
+    <!-- Block elements
+    <address><article><aside><blockquote><canvas><dd><div><dl><dt><fieldset><figcaption><figure><footer><form>all headings h1 to h6 <header><hr> <li><main><nav><noscript><ol><p><pre><section><table><tfoot><ul><video>    -->
+    <!-- Inline elements
+        <a><abbr><acronym><b><bdo><big><br><button><cite><code><dfn><em><i><img><input><kbd><label><map><object><output><q><samp><script><select>
+            <small> <span><strong><sub><sup> <var><tt><time><textarea>  -->
+    <footer>
+        this is footer
+    </footer>
+
+    <!-- <img src="https://blog.procircular.com/hubfs/Hacker.jpeg#keepProtocol" alt="hacker image"> -->
+    <!-- <img src="folder_name/my_name.jpg" alt=""> -->
+    <!-- if the image is in  different folder-->
+    <img src="wp5709257-hacker-desktop-4k-wallpapers.jpg" alt="image not found" width="500px">
+
+    <center>
+        <!-- to make the body at the center of the page,makes the center which  part it includes inside center tag till the closing tag-->
+
+        <h1>PAVAN <br> ♥ DHARIMIREDDY</h1> <!-- heading elements from h1 to h6 only-->
+        <br> <!-- line break , to go to a new line and this is self closing tag and empty tag -->
+        <hr> <!-- hr means a horizontal line and this self closing tag-->
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <em>Consectetur earum eaque excepturi eligendi saepe
+                labore, ea et perferendis ad amet? Esse enim aut voluptates ex mollitia corrupti</em>, adipisci quidem
+            distinctio?</p>
+        <!-- p tag used for paragraph-->
+        <!-- em tag used for italian-->
+        <!-- read mdn difference between <i> and <em>brightness -->
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus accusamus esse natus veritatis.<i> Quis
+                debitis optio illum ipsam doloremque nulla quaerat alias veritatis culpa aut,</i> quod qui sed earum
+            adipisci!</p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. <b>Officiis molestias obcaecati dolores, tempora
+                atque perspiciatis rem fugiat nihil, odio distinctio, </b> repellat nulla maiores! <strong>Fuga aperiam
+                animi culpa at maiores beatae?</strong> </p>
+        <!-- b and strong tags are used for bold-->
+        <!-- b and strong tags are not same-->
+        <!-- The <strong> element is for content that is of greater importance, while the <b> element is used to draw attention to text without indicating that it's more important.-->
+        <!-- use em and strong tags when are making the  website-->
+        <H2>PAVAN MEANS ANGER</H2>
+        <hr size="6"> <!-- hr is an html element and size is an html attribute-->
+        <hr size="16" noshade> <!-- noshade is also an attribute -->
+    </center>
+
+    <h2>lists</h2>
+    <!-- ul is unordered list-->
+    <ul>
+        <li>books</li>
+        <li>internet</li>
+
+    </ul>
+    <h2>lists 2</h2>
+    <!-- ol is ordered list-->
+    <ol type="i">
+        <!-- type = "i" for roman-->
+        <li>pavan</li>
+        <li>aditya</li>
+        <li>siddharat</li>
+    </ol>
+<a href="hobbies.html">time pass</a>  <!-- this is how we create multiple pages or accessing internal pages using anchor tag-->
+<a href="contact.html">contact details</a>
+    <h2>anchor tags</h2>
+    <a href="https://www.google.co.in">google</a> <!-- a is an anchor tag-->
+    <p>Lorem ipsum, dolor sit amet consectetur <strong><a href="https://www.google.co.in">google</a> is a website
+        </strong> elit. Temporibus debitis quo beatae ipsam eaque iste doloribus harum, rem neque eos sunt molestiae
+        repellat dolore nostrum possimus magnam consequuntur ducimus unde.</p>
+
+    <!--content of the web page is under body-->
+    this is pavan dharimireddy
+    <h1>Pavan dharimireddy</h1>
+    <!-- h1,h2,h3,,,h6 for heading and in decreasing importance order and this importance order used by google search-->
+    <h2>Pavan dharimireddy</h2> <!-- we should not use HTML headings to make text thick or bold-->
+    <h3>Pavan dharimireddy</h3>
+    <h4>Pavan dharimireddy</h4>
+    <h5>Pavan dharimireddy</h5>
+    <h6>Pavan dharimireddy</h6>
+
+    <p>this is a paragraph</p> <!-- p for paragraph-->
+    <!-- lorem is an emment plug  which helps us to write a random paragraph ,example -- lorem45 gives paragraph with 45 words-->
+    <!-- command palette -> toogle word warp , helps to change the horizontal line to small lines-->
+    <p>Lorem ipsum dolor sit amet <strong>consectetur, adipisicing elit. Blanditiis odio soluta libero obcaecati
+        </strong> non quos aspernatur ex <em>temporibus velit tempora architecto, debitis </em> dolorum <br> inventore
+        unde<br> <br> quae omnis qui rerum.
+    </p>
+    <hr>
+    <p>Lorem ipsum dolor sit amet <b>consectetur adipisicing elit. <u>Placeat exercitationem</u> animi iusto tempora
+            optio
+            voluptatem</b> <i>dolorem atque quas odit</i> quidem.</p>
+    <!-- strong tag changes the text into bold text -->
+    <!-- em  tag changes the font of the text -->
+    <!-- br tag for line break and br tag is a self closing tag -->
+    <!-- hr tag for horizontal rule and it is self closing tag -->
+    <!-- b tag is used for bold the text and it is not recommended -->
+    <!-- em  tag changes the font of the text and it is not recommended  -->
+    <!-- i tag used for italic-->
+    <!-- u tag used for underline-->
+
+    <!-- to get multiple paragraphs ,,example -- p*4 gives four paragraphs -->
+    <!-- meta,head,body,html all are tags and charset  is an attribute -->
+
+    <big>this is big text</big>
+    <br>
+    <small>this is small text</small>
+
+    <!-- we can make the text a bit larger and a bit samller using big and small tags-->
+    <br>
+    <br>
+
+    <h3>subscript and superscript</h3>
+    <sub>this is pavan</sub> <!-- base-->
+
+    <sup>this is pavan</sup> <!-- power-->
+    <br>
+    <p>CO<sub>2</sub></p>
+    <p>ax<sup>2</sup>+bx+c</p>
+
+    <h3>pre tags</h3>
+    <pre>
+        import requests
+import re
+ 
+url = input("Enter the URL: ")
+ 
+html = requests.get(url).text
+ 
+links = re.findall('"(https?://.*?)"', html)
+ 
+for link in links:
+    print(link)
+
+    </pre>
+    <!-- by using the pre tags the text will be as it as what you paste or type including spaces-->
+
+    <!-- search for html arrows-->
+    <p>C + O<sub>2</sub> &rarr; CO<sub>2</sub> </p>
+
+
+    <!-- how to add links?? -->
+    <a href="https://google.com"> Go To Google</a>
+    <br> <!-- br tag is used for break line-->
+    <a href="https://facebook.com" class="me" id="that"> Go To facebook</a>
+    <!-- class and id are also attributes and we can use single quotes instead of double quotes-->
+    <br>
+    <a href="https://instagram.com" target="_blank"> Go To instagram</a>
+    <!-- target helps in if we click on the instagram then it will open in new tab-->
+    <br>
+    <a href="https://Linkedin.com" target="_blank"> Go To Linkedin</a>
+    <!-- we can add local or internal links too -->
+    <a href="js_tutorial.js" target="_blank"> js_tutorial</a>
+    <br>
+
+    <!-- EXAMPLES OF ABSOLUTE LINK-->
+    <a href="https://facebook.com">facebook</a>
+
+    <!-- EXAMPLES OF RELATIVE LINK-->
+    <a href="/about.html">Go to about</a> <!-- about is another file-->
+
+
+
+
+    <!-- how to add images?? -->
+    <img src="image.jpg" alt="image not found">
+    <!-- if image is not found then alt will be displayed -->
+    <img src="https://source.unsplash.com/user/erondu/600x900" alt="image not found">
+    <!--source splash will get random images -->
+    <img src="https://source.unsplash.com/user/erondu/600x900" alt="image not found" width="533" height="356">
+    <!-- it is not recommended to use width and height in html-->
+
+
+
+    <!-- how to add tables and lists??? -->
+    <!-- ul ---- unordered list
+     ol ----- ordered list
+    li ----- list item -->
+
+    <ul type="circle">
+        <!-- types = circles,square,disc -->
+        <li>this is first item of my unordered list</li>
+        <li>this is second item of my unordered list</li>
+        <li>this is third item of my unordered list</li>
+        <ul>
+            <li>another list</li>
+        </ul>
+    </ul>
+
+    <ol type="I">
+        <!-- type(attributes) is used to change the look-->
+        <li>this is first item of my ordered list</li>
+        <li>this is second item of my ordered list</li>
+        <li>this is third item of my ordered list</li>
+    </ol>
+
+    <h2>Tables</h2>
+    <table>
+        <caption>Employees in a firm</caption>
+        <thead>
+            <!-- table first row head-->
+
+            <!-- tr --- table row
+             td --- table data
+             th --- table data for displaying table header-->
+            <tr>
+                <!-- first row -->
+                <th>Name</th> <!-- head of the rows-->
+                <th>Employee ID</th>
+                <th>Employee role</th>
+                <th colspan="2">Employee number</th> <!-- multiple columns inside a single column-->
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Pavan</td>
+                <td>454674343</td>
+                <td>Ethical Hacker</td>
+                <td>458986565</td>
+                <td>898565655</td>
+
+            </tr>
+            <tr>
+                <td>aditya</td>
+                <td>454674353</td>
+                <td>web developer</td>
+                <td>985545645</td>
+                <td>698569895</td>
+            </tr>
+            <tr>
+                <td>siddharth</td>
+                <td>454674643</td>
+                <td>Android developer</td>
+                <td>565653656</td>
+                <td>599999866</td>
+            </tr>
+            <td>dharimireddy</td>
+            <td>454658943</td>
+            <td>software developer</td>
+            <td>895666666</td>
+            <td>986566545</td>
+        </tbody>
+    </table>
+<hr>
+<table cellspacing="100"> <!-- to give the space between columns-->
+    <tr>
+        <td><img src="wp5709257-hacker-desktop-4k-wallpapers.jpg" alt="image not found" width="500px"></td>
+        <td><h1>Pavan Dharimireddy</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque eveniet ab laborum! Magni tenetur blanditiis reprehenderit, atque adipisci iure ipsa.
+            
+        </p></td>
+        </tr>
+</table
+
+<hr>
+<h3>Skills</h3>
+<table cellspacing="20" boarder='2px'>
+<tr>
+    <td>
+
+        <table>
+        <tr>
+            <td>
+                web development
+            </td>
+            <td>
+                ****
+            </td>
+            <td>
+                Android development
+            </td>
+            <td>
+                **
+            </td>
+        </tr>    
+        </table>
+    </td>
+ 
+<tr>
+<td>
+
+        <table>
+            <tr>
+                <td>
+                    software development
+                </td>
+                <td>
+                    ****
+                </td>
+                
+            </tr>
+        </table>
+    </td>
+</tr>
+
+</tr>
+</table>
+
+<hr>
+
+    <!--forms are used as input to collect the information -->
+    <h2>FORMS</h2>
+    <form action="backend.php">
+        <!-- submit all the data to the file backend.php which works at backend-->
+        <div> Name: <input type="text" placeholder="Enter your name " name="myname">
+        <input type="submit">
+    <input type="color"></div>
+        <!-- myname is used in the backend to acess the data of the name-->
+        <div>Role: <input type="text" name="myrole"></div>
+        <!-- we can use br instead of div but br is not recommended in html -->
+        <div>
+            Email: <input type="email" name="myemail">
+        </div>
+        <div>
+            <label for="">Password:</label>
+            <input type="password">
+        </div>
+        <br>
+        <label for="456"> Last Name</label> <!-- find out this use, surprise!!!-->
+        <input type="text" name="lastname" id="456">
+<div>
+    <input type="file">
+    <br>
+   <input type="range" name="" id="">
+</div>
+        <br>
+        <div>Date:<input type="date" name="mydate"></div>
+        <br>
+        <div>
+            Bonus: <input type="number" name="myBonus"> <!-- we cannot type any text because its type is number-->
+        </div>
+        <br>
+        <div>
+            Gender : Male <input type="radio" name="mygender"> Female <input type="radio" name="mygender">
+            <!-- radio button-->
+        </div>
+        <div>
+            are you above 18? : <input type="checkbox" name="myeligibility"> <!-- check box-->
+            are you eligible? : <input type="checkbox" name="eligibility" checked> <!-- by default checked -->
+
+        </div>
+        <div>
+            write about yourself : <br><textarea name="description" cols="30" rows="10"></textarea>
+        </div>
+        <div><label for="car"> Car</label>
+            <select name="mycar" id="car">
+                <option value="ferrari"> ferrari</option>
+                <option value="lamborgini" selected>lamborgini</option> <!-- for by default select use selected-->
+            </select>
+
+        </div>
+        <br>
+
+        <div>
+            <input type="submit" value="submit here">
+            <input type="reset" value="reset">
+        </div>
+
+    </form>
+
+</body>
+
+
+
+
+
+
+<!-- inline and block elements -->
+<!-- <p> paragraph is  a block element that why its always come in a new line and div,ul,li are also block element -->
+<p style="border: 2px solid red;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci alias animi
+    error praesentium perspiciatis expedita maxime omnis ad possimus quas?</p>
+<pstyle="border: 2px solid red;">
+    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi inventore, earum ex amet itaque veniam?</p>
+    <!--where as span,strong,a,em,img are inline element  -->
+    <span style="border: 2px solid blue;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui,
+        accusamus?</span>
+    <span style="border: 2px solid blue;">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus quis
+        dolor aliquid.</span>
+
+    <!-- id and classes -->
+    <h3>ids and classes</h3> <!-- id means identifier and id is unique-->
+
+    <!-- why do we need id ??
+to uniquely identify the element 
+why do we need class??
+to change or acess a group of elements at a time we need class-->
+
+    <div id="mainbox" class="redBg blackBorder"></div> <!-- two class and one id here-->
+    <span class="redBg"></span>
+
+    <!-- Emmet -->
+    <!-- shortcut
+    example
+    . for class and # for id 
+    span.redBg  try this 
+    span#mainbox try this
+
+ -->
+
+    <span class="redBg"></span>
+    <span id="mainbox"></span>
+    <!-- Emmet takes div tag as default 
+example .blackborder-->
+    <div class="blackborder"></div>
+
+    <!-- entities
+html entities help us to write the reserved or keywords in html like <p> -->
+
+    <h3> html entities</h3>
+    <div class="container">
+        <p>this is a paragraph</p>
+    </div>
+    <!-- if we need spaces inside a paragraph we need entities -->
+    <div class="container">
+        <p>this is another &nbsp; paragraph</p> <!-- nbsp means non breaking spaces-->
+        <p>
+            we know pavan is a great &lt;p&gt;
+
+        </p>
+        <p>pound is written like this &pound;</p>
+        <p>copyright written like this &copy;</p>
+        <p>empty character is written like this &#8203;</p>
+        <p>one fourth &frac14;</p>
+
+
+    </div>
+
+    <!-- semantic tags -->
+    <h2>semantic tags</h2>
+    <!-- semantic means means -->
+    <details>
+        Lorem ipsum dolor sit amet consectetur.
+    </details>
+    <details>
+        <summary>Lorem ipsum dolor sit amet.</summary>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Itaque, explicabo quisquam soluta nihil,
+        reprehenderit
+        voluptatibus pariatur corporis vel assumenda debitis praesentium, ullam aut illo provident? Quos repudiandae
+        blanditiis doloribus esse.
+    </details>
+
+
+
+
+    </body>
+
+</html>
+
+
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>practicehtml</title>
+</head>
+<body>
+    <h1>this is practice for html</h1>
+    <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laudantium mollitia voluptas, temporibus facilis consequatur iusto nobis animi commodi a vel praesentium voluptate quo voluptatem pariatur facere nam. Consequatur vitae voluptas corporis incidunt! Corrupti cum inventore necessitatibus sapiente magni neque aperiam!
+   <strong>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sed, ab.</strong>
+   <em>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione provident nihil, molestias exercitationem praesentium voluptatibus.</em>
+        <br>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis, repudiandae distinctio quam obcaecati veritatis animi laudantium dolore quod. Provident beatae tempore dolorum rem autem libero perferendis dignissimos magni eligendi aliquid!
+            <strong>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum dolor ut, quasi eius, magni, ullam dolores maiores vero laborum voluptatem dolorum quia incidunt quidem. Placeat consectetur deserunt tenetur veniam autem?
+
+            
+            </strong>
+            <hr>
+        </p>
+</p>
+
+<a href="https://google.com" target ="_blank"> Go to google</a>
+<br>
+<img src="image.jpg" alt="image not found">
+
+<ul type="square">
+    <li><a href="https://google.com" target="_blank"> google </a></li>
+    <li><a href="https://facebook.com" target="_blank"> facebook</a></li>
+    <li><a href="https://instagram.com" target="_blank"> instagram</a></li>
+</ul>
+<ol type="A">
+    
+    <li><a href="https://google.com" target="_blank"> google </a></li>
+    <li><a href="https://facebook.com" target="_blank"> facebook</a></li>
+    <li><a href="https://instagram.com" target="_blank"> instagram</a></li>
+</ol>
+
+<h2>tables</h2>
+<table>
+    <thead>
+        <tr>
+            <th>name</th>
+            <th>roll no</th>
+            <th>class</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>pavan</td>
+            <td>1143465465464</td>
+            <td>6</td>
+
+        </tr>
+        <tr>
+            <td>aditya</td>
+            <td>565668486465</td>
+            <td>9</td>
+        </tr>
+    </tbody>
+</table>
+
+<h2>forms</h2>
+<form action="backend.php"></form>
+  <div>
+      name: <input type="text" name ="myname" placeholder="enter you name">
+  </div>
+  <label for="452"> Email: </label>
+  <div><input type="email" id="452" name = "email" placeholder="enter you mail"></div>
+  <div>Date: <input type="date" name ="mydate"> </div>
+  <div>gender:male  <input type="radio" name="mygender">
+                Female <input type="radio" name="mygender">
+</div>
+<div>bonus: <input type="number" name="Bonus"></div>
+<div>great : <input type="checkbox" name ="gf" checked></div>
+<div>
+    write here:: <textarea name="fg" id="466525" cols="100" rows="10"></textarea>
+</div>
+<label for="bike"> Bike:</label>
+<select name="my" id="bike">
+    <option value="ducati">ducati</option>
+    <option value="kawasaki" selected  >kawasaki</option>
+</select>
+  <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem mollitia dolores qui nobis expedita, temporibus exercitationem suscipit nesciunt dicta voluptates vitae excepturi ex illo possimus accusamus a sed ut. In dolor cum veniam consequatur odio ea quas pariatur? Facere, provident!</span>
+<details>Lorem ipsum dolor sit amet consectetur &nbsp; adipisicing elit. Mollitia est enim, neque ex fugiat deleniti odit accusantium reprehenderit provident iure quo veniam totam beatae cum rerum, saepe laborum fugit illum?15
+
+</details>
+
+</body>
+</html> -->
